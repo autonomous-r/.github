@@ -1,84 +1,32 @@
 ---
 name: Chore
-about: Engineering work that does not define or change requirements
-title: "[Chore] "
-assignees: ""
+about: Work that does not change the design or build of hardware or software. Eg documentation, testing & infrastructure.
+title: "[CHORE] "
+labels: ["type:chore"]
 ---
 
-## Description
+## Background
 
-Describe the work to be done.
+<!-- Provide background as to why this work is needed and what problem it is solving. -->
 
-This is a **chore**: necessary engineering or housekeeping work that does **not** define a new requirement or change existing requirements.
+## Proposal
 
-Examples:
+<!-- Describe what is included and, if helpful, what is explicitly _out of scope_. -->
 
-- Refactoring
-- Cleanup or reorganisation
-- Documentation updates
-- Tooling improvements
-- Test setup or infrastructure work
+## Definition of Done
 
----
+<!-- Describe how we know the chore is complete.-->
 
-## Scope of Work
+## Risks
 
-Describe what is included and, if helpful, what is explicitly _out of scope_.
+<!-- Provide a list of the risks if any. Linking to risk issues is preferred if the risk is significant. -->
 
----
-
-## Rationale
-
-Why is this work needed?
-
-Examples:
-
-- Improve maintainability
-- Reduce technical debt
-- Enable future features
-- Improve clarity or consistency
-
----
-
-## Affected Area
-
-Identify what may be impacted.
-
-- Product / system:
-- Hardware / software / battery:
-- Repository or component:
-
----
-
-## Acceptance / Completion Criteria
-
-Describe how you will know this chore is complete.
-
-Examples:
-
-- Code builds and passes tests
-- Documentation updated and reviewed
-- Files reorganised with no functional change
-- Tooling verified to work as intended
-
----
-
-## Risks or Considerations
-
-Identify any risks introduced by this work.
-
-- [ ] No significant risk
-- [ ] Potential technical risk
-- [ ] Potential schedule impact
-- [ ] Other (describe):
-
-If risks exist, consider linking a **Risk** issue.
-
----
+-
+-
 
 ## Related Items
 
-Link related artefacts where relevant.
+<!-- Link related artefacts where relevant. -->
 
 - Feature / Requirement:
 - Defect:
@@ -86,8 +34,6 @@ Link related artefacts where relevant.
 - Verification:
 - Release:
 
----
-
 ## Notes
 
-Add any additional context or implementation notes.
+<!-- Add any additional context or implementation notes. -->

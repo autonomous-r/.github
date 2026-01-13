@@ -1,56 +1,66 @@
 ---
 name: Defect
 about: Report an observed problem or unexpected behaviour
-title: "[defect] "
+title: "[DEFECT] "
+labels: ["type:defect"]
 ---
 
 ## Description
 
-Briefly describe the observed problem or unexpected behaviour.
+<!-- Describe the issue in detail, for example what was expected vs what actually happened -->
 
-What is wrong? What did you see happen?
+### Expected Result
 
----
+### Actual Result
+
+## Severity
+
+- [ ] **Critical** - System unusable, no workaround, blocks progress
+- [ ] **High** - Major functionality broken, workaround exists
+- [ ] **Medium** - Feature partially broken, minor impact
+- [ ] **Low** - Cosmetic issue, or minimal impact
+
+## Impacted Parts / Systems
+
+<!-- Provide a list of impacted parts (with part titles) and if applicable serial numbers for parts -->
 
 ## Context / Environment
 
-Provide relevant context where the defect was observed.
+<!-- Provide context for where the defect was observed.
+
+If relevant provide information about the environment for example (delete any that are not relevant)
+-->
 
 - Product / system:
-- Hardware revision:
+- Hardware version:
 - Software / firmware version:
 - Test setup or operating conditions:
 - Date / build / commit (if applicable):
+- Trial no:
+- Lab test / on trial:
 
----
+## Steps to Reproduce
 
-## Expected Behaviour
+<!-- Provide a list of steps that can reproduce the defect. Write Not Applicable if
+this section is not applicable to the defect. -->
 
-What should have happened instead?
+### Reproducibility
 
-If the expected behaviour is not yet clearly defined, state that here.
+- [ ] Always
+- [ ] Sometimes (specify frequency: **_ out of _** attempts)
+- [ ] Once (cannot reproduce)
 
----
+## Workaround(s) Implemented
 
-## Evidence
+<!-- Describe any workarounds that have already been implemented. For example if a temporary fix to software was made on trial document it here, if a modification was made to a circuit board document it here (ideally the serial number of the board should be included). -->
 
-Attach or link any relevant evidence.
+## Proposed Solution
 
-**Images, screenshots, photos, logs, measurements, videos, or test output are strongly encouraged.**
-
----
-
-# Workaround Implemented
-
-Describe any workarounds that have already been implemented.
-
-# Proposed Solution
-
-If known, propose a solution for the issue. This doesn't have to be fully formed
+<!-- If known, propose a solution for the issue. This doesn't have to be fully formed. -->
 
 ## Related Items
 
-Link related artefacts where relevant.
+<!-- Link any related issues/PRs/requirements where relevant, delete where appropriate -->
 
 - Requirement:
 - Feature / Epic:
@@ -58,8 +68,23 @@ Link related artefacts where relevant.
 - Risk:
 - Release:
 
----
+## Root Cause
+
+<!-- Tick the box for the root cause and provide an explanation of why you think the defect occurred if possible -->
+
+- [ ] Requirement
+- [ ] Design
+- [ ] Manufacture
+- [ ] User (used in a way not designed for)
 
 ## Notes
 
-Add any additional observations, hypotheses, or proposed next steps.
+<!-- Provide any additional notes, observations or hypothesis here.  -->
+
+## Attachments
+
+<!-- include any supporting evidence eg screenshots, logs, photos of hardware, test data, etc..-->
+
+- [ ] Screenshots/photos attached
+- [ ] Log files attached
+- [ ] Test data attached
